@@ -32,24 +32,33 @@
                 </tr>
             </thead>
             <tbody>
-                <?php foreach ($peliculas as $pelicula): ?>
-                    <tr>
-                        <td>
-                            <?php echo $pelicula->id; ?>
-                        </td>
-                        <td>
-                            <?php echo $pelicula->title; ?>
-                        </td>
-                        <td>
-                            <?php echo $pelicula->overview; ?>
-                        </td>
-                        <td><img src="<?php echo $pelicula->poster_path; ?>"></td>
-                        <td>
-                            <a href="vista/crud/editar.php?id=<?php echo $peliculas->id; ?>"><i class="bi bi-pen">Editar</i></a>
-                            <a href="crud/eliminar.php?id=<?php echo $peliculas->id; ?>"><i class="bi bi-trash3">Eliinar</i></a>
-                        </td>
-                    </tr>
-                <?php endforeach; ?>
+                <div class="container">
+                    <div class="movie">
+                        <?php foreach ($peliculas as $pelicula): ?>
+                            <tr>
+                                <td>
+                                    <?php echo $pelicula->id; ?>
+                                </td>
+                                <td>
+                                    <?php echo $pelicula->title; ?>
+                                </td>
+                                <td>
+                                    <?php echo $pelicula->overview; ?>
+                                </td>
+                                <td>
+                                    <img src="<?php echo $pelicula->poster_path; ?>" alt="<?php echo $pelicula->title; ?>">
+                                </td>
+                                <td>
+                                    <a href="../procesoscrud/editar.php?id=<?php echo $producto["id"]; ?>"><i
+                                            class="bi bi-pen" title="Editar"></i></a>
+                                    <a href="../procesoscrud/eliminar.php?id=<?php echo $producto["id"]; ?>"><i
+                                            class="bi bi-trash3" title="Eliminar"></i></a>
+                                </td>
+                            </tr>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+
             </tbody>
         </table>
     </div>
