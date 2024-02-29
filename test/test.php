@@ -1,19 +1,15 @@
 <?php
+namespace Test;
 
 use PHPUnit\Framework\TestCase;
-use Controlador\crudController;
 use Modelo\Peliculas;
-use repositorio\pelicularepositorio;
+
+
 
 class Test extends TestCase
 {
     protected $controller;
-
-    protected function setUp(): void
-    {
-        $this->controller = new crudController(new pelicularepositorio());
-    }
-
+    
     public function testInsertar()
     {
         $pelicula = new Peliculas();
@@ -24,6 +20,13 @@ class Test extends TestCase
         $pelicula->vote_average = 8;
 
         $this->controller->insertar($pelicula);
+
+        $peliculaEncontrada = Peliculas::find($pelicula->id);
+        $this->assertSame($pelicula->id, $peliculaEncontrada->id);
+        $this->assertSame($pelicula->title, $peliculaEncontrada->title);
+        $this->assertSame($pelicula->overview, $peliculaEncontrada->overview);
+        $this->assertSame($pelicula->poster_path, $peliculaEncontrada->poster_path);
+        $this->assertSame($pelicula->vote_average, $peliculaEncontrada->vote_average);
     }
 
     public function testEditar()
@@ -36,6 +39,13 @@ class Test extends TestCase
         $pelicula->vote_average = 8;
 
         $this->controller->editar($pelicula);
+
+        $peliculaEncontrada = Peliculas::find($pelicula->id);
+        $this->assertSame($pelicula->id, $peliculaEncontrada->id);
+        $this->assertSame($pelicula->title, $peliculaEncontrada->title);
+        $this->assertSame($pelicula->overview, $peliculaEncontrada->overview);
+        $this->assertSame($pelicula->poster_path, $peliculaEncontrada->poster_path);
+        $this->assertSame($pelicula->vote_average, $peliculaEncontrada->vote_average);
     }
 
     public function testEliminar()
@@ -48,5 +58,9 @@ class Test extends TestCase
         $pelicula->vote_average = 8;
 
         $this->controller->eliminar($pelicula->id);
+
+        $peliculaEncontrada = Peliculas::find($pelicula->id);
+        $this->assertNull($peliculaEncontrada);
     }
+
 }

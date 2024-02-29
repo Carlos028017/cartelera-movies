@@ -1,23 +1,13 @@
 <?php
+
 require_once 'vendor/autoload.php';
-require_once 'controlador/favoritas.php';
 require_once 'controlador/crud.php';
-require_once 'repositorio/peliculas.php';
-require_once 'modelo/crud.php';
-
-
-use Controlador\crudController;
+require_once 'modelo/peliculas.php';
 use Illuminate\Database\Capsule\Manager as Capsule;
-use controlador\ControllerPeliculas;
-use repositorio\peliculasInterface;
+use Controlador\crudController;
 use Modelo\Peliculas;
-use Modelo\service;
-use controlador\ApiControlador;
-use Modelo\crud;
-use repositorio\pelicularepositorio;
 
 $capsule = new Capsule;
-
 $capsule->addConnection([
     'driver'    => 'mysql',
     'host'      => 'localhost',
@@ -28,32 +18,32 @@ $capsule->addConnection([
     'collation' => 'utf8_unicode_ci',
     'prefix'    => '',
 ]);
-
 $capsule->setAsGlobal();
 $capsule->bootEloquent();
 
-$apiKey = 'ec84fd2302154d2c26b0d499ac819ce8'; // API key de TMDb
+$controlador = new crudController();
 
-// Crear una instancia concreta de Peliculasrepository que implemente Peliculasrepository
-$repositorio = new pelicularepositorio();
-// Inyectar el repositorio en el controlador
-$controlador = new crudController($repositorio);
-// Ejecutar el método index del controlador
-if (isset($_GET['action'])) {
-    $action = $_GET['action'];
+if (isset($_GET['accion'])) {
+    $accion = $_GET['accion'];
 } else {
-    $action = 'index';
+    $accion = 'index';
 }
 
-switch ($action) {
+switch ($accion) {
+    case 'crear':
+        $controlador->crear();
+        break;
     case 'insertar':
-        $controlador->insertar();
+        $controlador->insertar($_POST);
+        break;
+    case 'actualizar':
+        $controlador->actualizar($_GET['id']);
         break;
     case 'editar':
-        $controlador->insertar($_GET['id']);
+        $controlador->editar($_GET['id']);
         break;
     case 'eliminar':
-        $controlador->insertar($_GET['id']);
+        $controlador->eliminar($_GET['id']);
         break;
     default:
         $controlador->index();

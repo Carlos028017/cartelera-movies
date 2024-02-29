@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Test\\Test::testInsertar":8,"Test\\Test::testEditar":8,"Test\\Test::testEliminar":8,"Test::testEliminar":8,"Test::testInsertar":8,"Test::testActualizar":8},"times":{"Test\\Test::testInsertar":0.027,"Test\\Test::testEditar":0.001,"Test\\Test::testEliminar":0.001,"Test::testEliminar":0.07,"Test::testInsertar":0.003,"Test::testActualizar":0.003}}

@@ -6,12 +6,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
-  <nav>
-    <a href="/movies/crud.php">regresar</a>
-  </nav>
-  <br><br><br>
-
-
     <div class="container">
         <h1>Agregar Pelicula</h1>
         <form action="?action=inserter&id" method="POST">
@@ -22,7 +16,7 @@
             </div>
             <div class="form-group">
                 <label for="overview">Descripcion:</label>
-                <input type="number" class="form-control" id="overview" name="overview" step="0.01" required>
+                <input type="text" class="form-control" id="overview" name="overview" required>
             </div>
             <div class="form-group">
                 <label for="vote_average">Votos:</label>
@@ -37,7 +31,7 @@
                 <input type="text" class="form-control" id="video_principal" name="video_principal" required>
             </div>
             <button type="submit" class="btn btn-primary">Crear</button>
-            <a href="vista/crud.php" class="btn btn-secondary">Atras</a>
+            <a href="crud.php" class="btn btn-secondary">Atras</a>
         </form>
     </div>
     <br><br><br>
