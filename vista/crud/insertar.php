@@ -8,7 +8,7 @@
 <body>
     <div class="container">
         <h1>Agregar Pelicula</h1>
-        <form action="?action=inserter&id" method="POST">
+        <form action="?accion=insertar" method="POST">
             <input type="hidden" name="id" value="<?php echo $producto["id"]; ?>">
             <div class="form-group">
                 <label for="title">Nombre:</label>
@@ -25,10 +25,6 @@
             <div class="form-group">
                 <label for="poster_path">Imagen:</label>
                 <input type="text" class="form-control" id="poster_path" name="poster_path" required>
-            </div>
-            <div class="form-group">
-                <label for="video_principal">Video:</label>
-                <input type="text" class="form-control" id="video_principal" name="video_principal" required>
             </div>
             <button type="submit" class="btn btn-primary">Crear</button>
             <a href="crud.php" class="btn btn-secondary">Atras</a>

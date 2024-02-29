@@ -42,30 +42,29 @@ class crudController
         include __DIR__ . ('/../vista/crud/insertar.php');
     }
 
-    public function insertar()
+    public function insertar($datos)
     {
         $pelicula = new Peliculas();
-        $pelicula->id = $_POST['id'];
-        $pelicula->title = $_POST['title'];
-        $pelicula->overview = $_POST['overview'];
-        $pelicula->poster_path = $_POST['poster_path'];
-        $pelicula->vote_average = $_POST['vote_average'];
+        $pelicula->title = $datos['title'];
+        $pelicula->overview = $datos['overview'];
+        $pelicula->poster_path = $datos['poster_path'];
+        $pelicula->vote_average = $datos['vote_average'];
         $pelicula->save();
         header('LOCATION: crud.php');
 
 
     }
 
-    public function actualizar()
+    public function actualizar($id)
     {
-        $pelicula = Peliculas::find('id')->get();
+        $pelicula = Peliculas::find($id);
         include __DIR__ . ('/../vista/crud/editar.php');
     }
 
     public function editar($id)
     {
-        $pelicula = Peliculas::find('id')->get();
-        $pelicula->id = $_POST['idpelicula'];
+        $pelicula = Peliculas::find($id);
+        $pelicula->id = $_POST['id'];
         $pelicula->title = $_POST['title'];
         $pelicula->overview = $_POST['overview'];
         $pelicula->vote_average = $_POST['vote_average'];
