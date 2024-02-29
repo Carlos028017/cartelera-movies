@@ -1,27 +1,20 @@
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Agregar Producto</title>
     <link rel="stylesheet" href="../css/style_crear.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
-
-  <header>
-    <h1>VoleySport</h1>
-  </header>
-
   <nav>
-    <a href="../vistas/inicio.php">Productos</a>
+    <a href="/movies/crud.php">regresar</a>
   </nav>
   <br><br><br>
 
 
     <div class="container">
-        <h1>Agregar Producto</h1>
-        <form action="" method="POST">
+        <h1>Agregar Pelicula</h1>
+        <form action="?action=inserter&id" method="POST">
             <input type="hidden" name="id" value="<?php echo $producto["id"]; ?>">
             <div class="form-group">
                 <label for="title">Nombre:</label>
@@ -32,7 +25,7 @@
                 <input type="number" class="form-control" id="overview" name="overview" step="0.01" required>
             </div>
             <div class="form-group">
-                <label for="vote_average">Imagen:</label>
+                <label for="vote_average">Votos:</label>
                 <input type="text" class="form-control" id="vote_average" name="vote_average" required>
             </div>
             <div class="form-group">
@@ -40,7 +33,7 @@
                 <input type="text" class="form-control" id="poster_path" name="poster_path" required>
             </div>
             <div class="form-group">
-                <label for="video_principal">Imagen:</label>
+                <label for="video_principal">Video:</label>
                 <input type="text" class="form-control" id="video_principal" name="video_principal" required>
             </div>
             <button type="submit" class="btn btn-primary">Crear</button>
