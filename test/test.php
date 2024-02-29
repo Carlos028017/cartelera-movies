@@ -1,20 +1,52 @@
 <?php
-use Modelo\apiModell;
-use PHPUnit\Framework\MockObject\MockObject;
+
 use PHPUnit\Framework\TestCase;
-class test extends TestCase{
+use Controlador\crudController;
+use Modelo\Peliculas;
+use repositorio\pelicularepositorio;
 
-    private $api;
+class Test extends TestCase
+{
+    protected $controller;
 
-    public function setUp(): void{
-        $this->api = new apiModell();
+    protected function setUp(): void
+    {
+        $this->controller = new crudController(new pelicularepositorio());
     }
 
-    public function test1(){
-        $result = $this->api->extraer();
+    public function testInsertar()
+    {
+        $pelicula = new Peliculas();
+        $pelicula->id = 1;
+        $pelicula->title = 'piraña';
+        $pelicula->overview = 'mientras unos jovenes se divertian en la playa fueron atacados por pirañas';
+        $pelicula->poster_path = 'piraña.jpg';
+        $pelicula->vote_average = 8;
 
-        $this->assertNotNull(($result));
-        $this->assertIsArray(($result));
+        $this->controller->insertar($pelicula);
     }
 
+    public function testEditar()
+    {
+        $pelicula = new Peliculas();
+        $pelicula->id = 1;
+        $pelicula->title = 'piraña';
+        $pelicula->overview = 'mientras unos jovenes se divertian en la playa fueron atacados por pirañas';
+        $pelicula->poster_path = 'piraña.jpg';
+        $pelicula->vote_average = 8;
+
+        $this->controller->editar($pelicula);
+    }
+
+    public function testEliminar()
+    {
+        $pelicula = new Peliculas();
+        $pelicula->id = 1;
+        $pelicula->title = 'piraña';
+        $pelicula->overview = 'mientras unos jovenes se divertian en la playa fueron atacados por pirañas';
+        $pelicula->poster_path = 'piraña.jpg';
+        $pelicula->vote_average = 8;
+
+        $this->controller->eliminar($pelicula->id);
+    }
 }
