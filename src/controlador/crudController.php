@@ -1,7 +1,7 @@
 <?php
 namespace controlador;
 
-use modelo\Historiaeliminados;
+use modelo\eliminados;
 use modelo\Peliculas;
 
 class crudController
@@ -21,16 +21,15 @@ class crudController
             exit();
         }
         echo "<script>alert('Pelicula eliminada correctamente');</script>";
-        echo "<meta http-equiv='refresh' content='0.00000000000001;url=crud.php'>";
+        echo "<meta http-equiv='refresh' content='0.1;url=crud.php'>";
 
-        // los registros eliminados se guardan en la tabal de eliminados 
-        /*$peliculaEliminada = new Historiaeliminados();
-        $peliculaEliminada->idpelicula = $pelicula->ideliminado;
+        $peliculaEliminada = new eliminados();
+        $peliculaEliminada->ideliminado = $pelicula->idpeliculas;
         $peliculaEliminada->title = $pelicula->title;
         $peliculaEliminada->overview = $pelicula->overview;
         $peliculaEliminada->vote_average = $pelicula->vote_average;
         $peliculaEliminada->poster_path = $pelicula->poster_path;
-        $peliculaEliminada->save();*/
+        $peliculaEliminada->save();
 
         $pelicula->delete();
     }
