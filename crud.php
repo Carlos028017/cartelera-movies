@@ -1,8 +1,8 @@
 <?php
 
 require_once 'vendor/autoload.php';
-require_once 'controlador/crud.php';
-require_once 'modelo/peliculas.php';
+require_once 'src/controlador/crudController.php';
+require_once 'src/modelo/peliculas.php';
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Controlador\crudController;
 use Modelo\Peliculas;

@@ -25,6 +25,18 @@ class ComposerStaticInited747ac9d88820823eaa5053c67ecf94
         array (
             'voku\\' => 5,
         ),
+        'r' => 
+        array (
+            'repositorio\\' => 12,
+        ),
+        'm' => 
+        array (
+            'modelo\\' => 7,
+        ),
+        'c' => 
+        array (
+            'controlador\\' => 12,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
@@ -64,6 +76,7 @@ class ComposerStaticInited747ac9d88820823eaa5053c67ecf94
         ),
         'C' => 
         array (
+            'Carlos\\movies\\' => 14,
             'Carbon\\Doctrine\\' => 16,
             'Carbon\\' => 7,
         ),
@@ -77,6 +90,18 @@ class ComposerStaticInited747ac9d88820823eaa5053c67ecf94
         'voku\\' => 
         array (
             0 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
+        ),
+        'repositorio\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/repositorio',
+        ),
+        'modelo\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/modelo',
+        ),
+        'controlador\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/controlador',
         ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
@@ -169,6 +194,10 @@ class ComposerStaticInited747ac9d88820823eaa5053c67ecf94
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'Carlos\\movies\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Carbon\\Doctrine\\' => 
         array (

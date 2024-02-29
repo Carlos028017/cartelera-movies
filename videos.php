@@ -1,8 +1,8 @@
 <?php
 
 require_once 'vendor/autoload.php';
-require_once 'modelo/video.php';
-require_once 'controlador/video.php';
+require_once 'src/modelo/video.php';
+require_once 'src/controlador/video.php';
 
 use Illuminate\Database\Capsule\Manager as Capsule;
 

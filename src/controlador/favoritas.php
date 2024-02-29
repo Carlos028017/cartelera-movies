@@ -16,6 +16,6 @@ class ControllerPeliculas
     public function index()
     {
         $peliculas = $this->repositorio->obtenerTodas();
-        include __DIR__.('/../vista/peliculas.php');
+        include __DIR__.('/..//vista/peliculas.php');
     }
 }

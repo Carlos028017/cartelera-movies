@@ -1,14 +1,12 @@
 <?php
-namespace Controlador;
+namespace controlador;
 
 use Modelo\Historialiminados;
-use Modelo\Peliculas;
+use modelo\Peliculas;
 use repositorio\pelicularepositorio;
 
 class crudController
 {
-    protected $repositorio;
-
     public function index()
     {
         $peliculas = Peliculas::orderByDesc('id')->get();
@@ -45,6 +43,7 @@ class crudController
     public function insertar($datos)
     {
         $pelicula = new Peliculas();
+        $pelicula->idpeliculas = $datos['idpeliculas'];
         $pelicula->title = $datos['title'];
         $pelicula->overview = $datos['overview'];
         $pelicula->poster_path = $datos['poster_path'];

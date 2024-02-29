@@ -1,7 +1,7 @@
 <?php
 namespace repositorio;
-require_once 'peliculaIntreface.php';
-require_once 'modelo/peliculas.php';
+require_once __DIR__.'../peliculaIntreface.php';
+require_once __DIR__.'/../modelo/peliculas.php';
 
 use Modelo\Peliculas;
 

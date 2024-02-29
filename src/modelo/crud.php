@@ -1,10 +1,10 @@
 <?php
-namespace Modelo;
+namespace modelo;
 
 use Modelo\Historialiminados;
 use Modelo\Peliculas;
 
-class crud
+class crud 
 {
     protected $tabla = 'registro_de_datos_elimindos';
 

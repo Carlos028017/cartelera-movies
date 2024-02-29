@@ -23,7 +23,7 @@ class apiModell extends Model
     foreach ($data['results'] as $movie) {
       //$movieModel = new apiModell();
       $pelicula = new apiModell();
-      $pelicula->id = $movie['id'];
+      $pelicula->idpeliculas = $movie['id'];
       $pelicula->title = $movie['title'];
       $pelicula->overview = $movie['overview'];
       $pelicula->vote_average = $movie['vote_average'];

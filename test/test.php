@@ -1,14 +1,13 @@
 <?php
+
 namespace Test;
 
 use Illuminate\Database\Capsule\Manager as Capsule;
 use PHPUnit\Framework\TestCase;
-use Modelo\Peliculas;
-use Controlador\crudController;
+use modelo\Peliculas;
+use controlador\crudController;
 
-
-
-class Test extends TestCase
+class test extends TestCase
 {
     public static function setUpBeforeClass(): void
     {
@@ -26,51 +25,56 @@ class Test extends TestCase
         $capsule->setAsGlobal();
         $capsule->bootEloquent();
     }
-
-    protected $controller;
     
     public function testInsertar()
     {
-        $pelicula = new Peliculas();
-        $pelicula->id = 1;
-        $pelicula->title = 'piraña';
-        $pelicula->overview = 'mientras unos jovenes se divertian en la playa fueron atacados por pirañas';
-        $pelicula->poster_path = 'piraña.jpg';
-        $pelicula->vote_average = 8;
+        $datos = [
+            'idpeliculas' => '20',
+            'title' => 'piraña',
+            'overview' => 'mientras unos jovenes se divertian en la playa fueron atacados por pirañas',
+            'poster_path' => 'piraña.jpg',
+            'vote_average' => '8'
+        ];
 
-        $this->controller->insertar($pelicula);
+        $controller = new crudController();
+        $controller->insertar($datos);
 
-        $peliculaEncontrada = Peliculas::find($pelicula->id);
-        $this->assertSame($pelicula->id, $peliculaEncontrada->id);
-        $this->assertSame($pelicula->title, $peliculaEncontrada->title);
-        $this->assertSame($pelicula->overview, $peliculaEncontrada->overview);
-        $this->assertSame($pelicula->poster_path, $peliculaEncontrada->poster_path);
-        $this->assertSame($pelicula->vote_average, $peliculaEncontrada->vote_average);
+        $peliculaEncontrada = Peliculas::where('title', 'piraña')->first();
+        $this->assertEquals('piraña', $peliculaEncontrada->title);
+        $this->assertEquals('mientras unos jovenes se divertian en la playa fueron atacados por pirañas', $peliculaEncontrada->overview);
+        $this->assertEquals('piraña.jpg', $peliculaEncontrada->poster_path);
+        $this->assertEquals('8', $peliculaEncontrada->vote_average);
     }
 
     public function testEditar()
     {
-        $pelicula = new Peliculas();
-        $pelicula->id = 1;
-        $pelicula->title = 'piraña';
-        $pelicula->overview = 'mientras unos jovenes se divertian en la playa fueron atacados por pirañas';
-        $pelicula->poster_path = 'piraña.jpg';
-        $pelicula->vote_average = 8;
+        $id = new Peliculas();
+        $id->idpeliculas = 20;
+        $id->title = 'piraña';
+        $id->overview = 'mientras unos jovenes se divertian en la playa fueron atacados por pirañas';
+        $id->poster_path = 'piraña.jpg';
+        $id->vote_average = 8;
+       
 
-        $this->controller->editar($pelicula);
+        $controller = new crudController();
+        $controller->editar(21);
 
-        $peliculaEncontrada = Peliculas::find($pelicula->id);
-        $this->assertSame($pelicula->id, $peliculaEncontrada->id);
-        $this->assertSame($pelicula->title, $peliculaEncontrada->title);
-        $this->assertSame($pelicula->overview, $peliculaEncontrada->overview);
-        $this->assertSame($pelicula->poster_path, $peliculaEncontrada->poster_path);
-        $this->assertSame($pelicula->vote_average, $peliculaEncontrada->vote_average);
+        $peliculaEncontrada = Peliculas::find($id->idpeliculas);
+        if($peliculaEncontrada){
+        $this->assertSame($id->idpeliculas, $peliculaEncontrada->idpeliculas);
+        $this->assertSame($id->title, $peliculaEncontrada->title);
+        $this->assertSame($id->overview, $peliculaEncontrada->overview);
+        $this->assertSame($id->poster_path, $peliculaEncontrada->poster_path);
+        $this->assertSame($id->vote_average, $peliculaEncontrada->vote_average);
+        }else{
+            $this->fail('');
+        }
     }
 
     public function testEliminar()
     {
         $pelicula = new Peliculas();
-        $pelicula->id = 1;
+        $pelicula->id = 20;
         $pelicula->title = 'piraña';
         $pelicula->overview = 'mientras unos jovenes se divertian en la playa fueron atacados por pirañas';
         $pelicula->poster_path = 'piraña.jpg';
@@ -78,9 +82,8 @@ class Test extends TestCase
         $pelicula->save();
 
         $controller = new crudController();
-        $this->$controller->eliminar($pelicula->id);
+        $controller->eliminar($pelicula->id);
 
         $this->assertNull(Peliculas::find($pelicula->id));
     }
-
 }

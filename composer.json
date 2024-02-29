@@ -1,4 +1,12 @@
 {
+    "autoload": {
+        "psr-4": {
+            "carlo\\movies\\": "src/",
+            "controlador\\": "src/controlador/",
+            "repositorio\\": "src/repositorio/",
+            "modelo\\": "src/modelo/"
+        }
+    },
     "require": {
         "illuminate/database": "^10.45",
         "illuminate/events": "^10.45",
