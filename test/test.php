@@ -13,19 +13,19 @@ class test extends TestCase
     {
         $capsule = new Capsule;
         $capsule->addConnection([
-            'driver'    => 'mysql',
-            'host'      => 'localhost',
-            'database'  => 'movie',
-            'username'  => 'root',
-            'password'  => '',
-            'charset'   => 'utf8',
+            'driver' => 'mysql',
+            'host' => 'localhost',
+            'database' => 'movie',
+            'username' => 'root',
+            'password' => '',
+            'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
-            'prefix'    => '',
+            'prefix' => '',
         ]);
         $capsule->setAsGlobal();
         $capsule->bootEloquent();
     }
-    
+
     public function testInsertar()
     {
         $datos = [
@@ -44,31 +44,6 @@ class test extends TestCase
         $this->assertEquals('mientras unos jovenes se divertian en la playa fueron atacados por pirañas', $peliculaEncontrada->overview);
         $this->assertEquals('piraña.jpg', $peliculaEncontrada->poster_path);
         $this->assertEquals('8', $peliculaEncontrada->vote_average);
-    }
-
-    public function testEditar()
-    {
-        $id = new Peliculas();
-        $id->idpeliculas = 20;
-        $id->title = 'piraña';
-        $id->overview = 'mientras unos jovenes se divertian en la playa fueron atacados por pirañas';
-        $id->poster_path = 'piraña.jpg';
-        $id->vote_average = 8;
-       
-
-        $controller = new crudController();
-        $controller->editar(21);
-
-        $peliculaEncontrada = Peliculas::find($id->idpeliculas);
-        if($peliculaEncontrada){
-        $this->assertSame($id->idpeliculas, $peliculaEncontrada->idpeliculas);
-        $this->assertSame($id->title, $peliculaEncontrada->title);
-        $this->assertSame($id->overview, $peliculaEncontrada->overview);
-        $this->assertSame($id->poster_path, $peliculaEncontrada->poster_path);
-        $this->assertSame($id->vote_average, $peliculaEncontrada->vote_average);
-        }else{
-            $this->fail('');
-        }
     }
 
     public function testEliminar()

@@ -63,7 +63,6 @@ class crudController
     public function editar($id)
     {
         $pelicula = Peliculas::find($id);
-        $pelicula->id = $_POST['id'];
         $pelicula->title = $_POST['title'];
         $pelicula->overview = $_POST['overview'];
         $pelicula->vote_average = $_POST['vote_average'];
