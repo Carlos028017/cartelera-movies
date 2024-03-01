@@ -10,7 +10,8 @@
     "require": {
         "illuminate/database": "^10.45",
         "illuminate/events": "^10.45",
-        "guzzlehttp/guzzle": "^7.8"
+        "guzzlehttp/guzzle": "^7.8",
+        "symfony/stopwatch": "^6.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^10.5"

@@ -1,5 +1,5 @@
 <?php
-
+require_once __DIR__ .'/metricas.php';
 require_once 'vendor/autoload.php';
 require_once 'src/modelo/video.php';
 require_once 'src/controlador/video.php';

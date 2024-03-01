@@ -36,13 +36,16 @@ class ComposerStaticInited747ac9d88820823eaa5053c67ecf94
         'c' => 
         array (
             'controlador\\' => 12,
+            'carlo\\movies\\' => 13,
         ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Contracts\\Translation\\' => 30,
+            'Symfony\\Contracts\\Service\\' => 26,
             'Symfony\\Component\\Translation\\' => 30,
+            'Symfony\\Component\\Stopwatch\\' => 28,
         ),
         'P' => 
         array (
@@ -76,7 +79,6 @@ class ComposerStaticInited747ac9d88820823eaa5053c67ecf94
         ),
         'C' => 
         array (
-            'Carlos\\movies\\' => 14,
             'Carbon\\Doctrine\\' => 16,
             'Carbon\\' => 7,
         ),
@@ -103,6 +105,10 @@ class ComposerStaticInited747ac9d88820823eaa5053c67ecf94
         array (
             0 => __DIR__ . '/../..' . '/src/controlador',
         ),
+        'carlo\\movies\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
@@ -115,9 +121,17 @@ class ComposerStaticInited747ac9d88820823eaa5053c67ecf94
         array (
             0 => __DIR__ . '/..' . '/symfony/translation-contracts',
         ),
+        'Symfony\\Contracts\\Service\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/service-contracts',
+        ),
         'Symfony\\Component\\Translation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
+        ),
+        'Symfony\\Component\\Stopwatch\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/stopwatch',
         ),
         'Psr\\SimpleCache\\' => 
         array (
@@ -194,10 +208,6 @@ class ComposerStaticInited747ac9d88820823eaa5053c67ecf94
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
-        ),
-        'Carlos\\movies\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
         'Carbon\\Doctrine\\' => 
         array (
