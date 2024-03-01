@@ -23,13 +23,13 @@ class crudController
         echo "<script>alert('Pelicula eliminada correctamente');</script>";
         echo "<meta http-equiv='refresh' content='0.1;url=crud.php'>";
 
-        $peliculaEliminada = new eliminados();
+        /*$peliculaEliminada = new eliminados();
         $peliculaEliminada->ideliminado = $pelicula->idpeliculas;
         $peliculaEliminada->title = $pelicula->title;
         $peliculaEliminada->overview = $pelicula->overview;
         $peliculaEliminada->vote_average = $pelicula->vote_average;
         $peliculaEliminada->poster_path = $pelicula->poster_path;
-        $peliculaEliminada->save();
+        $peliculaEliminada->save();*/
 
         $pelicula->delete();
     }

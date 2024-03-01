@@ -5,7 +5,7 @@ use Illuminate\Database\Capsule\Manager as Capsule;
 use Illuminate\Events\Dispatcher;
 use Illuminate\Container\Container;
 
-class film extends Illuminate\Database\Eloquent\Model{
+class conexion extends Illuminate\Database\Eloquent\Model{
 
     public function obtenerConexion(){
         try {

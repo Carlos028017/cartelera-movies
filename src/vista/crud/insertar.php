@@ -11,6 +11,10 @@
         <form action="?accion=insertar" method="POST">
             <input type="hidden" name="id" value="<?php echo $producto["id"]; ?>">
             <div class="form-group">
+                <label for="idpelicula">idpelicula:</label>
+                <input type="text" class="form-control" id="idpelicula" name="idpelicula" required>
+            </div>
+            <div class="form-group">
                 <label for="title">Nombre:</label>
                 <input type="text" class="form-control" id="title" name="title" required>
             </div>

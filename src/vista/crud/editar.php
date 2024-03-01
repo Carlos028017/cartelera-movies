@@ -15,6 +15,10 @@
         <form action="?accion=editar&id=<?php echo $pelicula->id; ?>" method="POST">
             <input type="hidden" name="id" value="<?php echo $pelicula->id; ?>">
             <div class="form-group">
+                <label for="idpelicula">idpelicula:</label>
+                <input type="text" class="form-control" id="idpelicula" name="idpelicula" value="<?php echo $pelicula->idpeliculas; ?>" required>
+            </div>
+            <div class="form-group">
                 <label for="title">Nombre:</label>
                 <input type="text" class="form-control" id="title" name="title" value="<?php echo $pelicula->title; ?>" required>
             </div>
