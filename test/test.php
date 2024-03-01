@@ -3,7 +3,7 @@
 namespace Test;
 
 use Illuminate\Database\Capsule\Manager as Capsule;
-use Modelo\eliminados;
+use modelo\eliminados;
 use PHPUnit\Framework\TestCase;
 use modelo\Peliculas;
 use controlador\crudController;
@@ -47,10 +47,10 @@ class test extends TestCase
         $this->assertEquals('8', $peliculaEncontrada->vote_average);
     }
 
-    /*public function testEliminar()
+    public function testEliminar()
     {
         $pelicula = new Peliculas();
-        $pelicula->id = 20;
+        $pelicula->idpeliculas = 2456;
         $pelicula->title = 'piraña';
         $pelicula->overview = 'mientras unos jovenes se divertian en la playa fueron atacados por pirañas';
         $pelicula->poster_path = 'piraña.jpg';
@@ -58,48 +58,16 @@ class test extends TestCase
         $pelicula->save();
 
         $peliculaEliminada = new eliminados();
-        $peliculaEliminada->ideliminado = $pelicula->idpeliculas;
-        $peliculaEliminada->title = $pelicula->title;
-        $peliculaEliminada->overview = $pelicula->overview;
-        $peliculaEliminada->vote_average = $pelicula->vote_average;
-        $peliculaEliminada->poster_path = $pelicula->poster_path;
+        $peliculaEliminada->ideliminado = $pelicula->idpeliculas = 2456;
+        $peliculaEliminada->title = $pelicula->title = 'piraña';
+        $peliculaEliminada->overview = $pelicula->overview = 'mientras unos jovenes se divertian en la playa fueron atacados por pirañas';
+        $peliculaEliminada->vote_average = $pelicula->vote_average = 8;
+        $peliculaEliminada->poster_path = $pelicula->poster_path = 'piraña.jpg';
         $peliculaEliminada->save();
 
         $controller = new crudController();
         $controller->eliminar($pelicula->id);
 
         $this->assertNull(Peliculas::find($pelicula->id));
-    }*/
-
-    public function testEliminar()
-{
-    // Crear película
-    $pelicula = new Peliculas();
-    $pelicula->id = 20;
-    $pelicula->idpeliculas = 20;
-    $pelicula->title = 'piraña';
-    $pelicula->overview = 'mientras unos jovenes se divertian en la playa fueron atacados por pirañas';
-    $pelicula->poster_path = 'piraña.jpg';
-    $pelicula->vote_average = 8;
-    $pelicula->save();
-
-    // Eliminar película
-    $controller = new crudController();
-    $controller->eliminar($pelicula->id);
-
-    // Verificar que la película fue eliminada
-    $this->assertNull(Peliculas::find($pelicula->id));
-
-    // Crear película eliminada
-    $peliculaEliminada = new eliminados();
-    $peliculaEliminada->ideliminado = $pelicula->idpeliculas;
-    $peliculaEliminada->title = $pelicula->title;
-    $peliculaEliminada->overview = $pelicula->overview;
-    $peliculaEliminada->vote_average = $pelicula->vote_average;
-    $peliculaEliminada->poster_path = $pelicula->poster_path;
-    $peliculaEliminada->save();
-
-    // Verificar que la película eliminada fue creada
-    $this->assertNotNull(eliminados::find($peliculaEliminada->ideliminado));
-}
+    }
 }
