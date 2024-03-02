@@ -2,7 +2,7 @@
 // URL de tu página
 $url = 'http://localhost/movies/peliculas.php';
 // Número de usuarios simulados
-$numUsuarios = 10000;
+$numUsuarios = 1000;
 // Función para realizar la petición cURL
 function hacerPeticion($url)
 {
