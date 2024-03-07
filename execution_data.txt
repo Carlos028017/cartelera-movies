@@ -1,0 +1,549 @@
+Datos de ejecucion
+ Fecha y hora: 02-03-2024 15:58:15
+ Tiempo: 0.02 seconds
+Datos de ejecucion
+ Fecha y hora: 02-03-2024 15:58:16
+ Tiempo: 0.05 seconds
+Datos de ejecucion
+ Fecha y hora: 02-03-2024 15:58:52
+ Tiempo: 0.01 seconds
+Datos de ejecucion
+ Fecha y hora: 02-03-2024 16:04:32
+ Tiempo: 0.02 seconds
+Datos de ejecucion
+ Fecha y hora: 02-03-2024 16:04:34
+ Tiempo: 0.01 seconds
+Datos de ejecucion
+ Fecha y hora: 02-03-2024 16:05:03
+ Tiempo: 0.02 seconds
+Datos de ejecucion
+ Fecha y hora: 02-03-2024 16:05:34
+ Tiempo: 0.02 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:15
+ Tiempo: 0.03 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:15
+ Tiempo: 0.03 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:15
+ Tiempo: 0.06 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:16
+ Tiempo: 0.09 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:16
+ Tiempo: 0.08 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:16
+ Tiempo: 0.19 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:16
+ Tiempo: 0.30 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:16
+ Tiempo: 0.24 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:16
+ Tiempo: 0.31 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:16
+ Tiempo: 0.30 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:16
+ Tiempo: 0.31 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:16
+ Tiempo: 0.15 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:16
+ Tiempo: 0.12 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:16
+ Tiempo: 0.44 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:16
+ Tiempo: 0.11 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:16
+ Tiempo: 0.13 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:17
+ Tiempo: 0.38 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:17
+ Tiempo: 0.29 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:17
+ Tiempo: 0.22 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:17
+ Tiempo: 0.45 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:17
+ Tiempo: 0.22 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:17
+ Tiempo: 0.16 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:17
+ Tiempo: 0.15 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:17
+ Tiempo: 0.12 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:17
+ Tiempo: 0.16 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:17
+ Tiempo: 0.16 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:17
+ Tiempo: 0.13 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:17
+ Tiempo: 0.14 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:17
+ Tiempo: 0.32 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:17
+ Tiempo: 0.33 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:17
+ Tiempo: 0.29 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:17
+ Tiempo: 0.17 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:18
+ Tiempo: 0.22 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:18
+ Tiempo: 0.40 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:18
+ Tiempo: 0.36 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:18
+ Tiempo: 0.62 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:18
+ Tiempo: 0.07 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:18
+ Tiempo: 0.35 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:18
+ Tiempo: 0.17 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:18
+ Tiempo: 0.09 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:18
+ Tiempo: 0.04 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:19
+ Tiempo: 0.12 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:19
+ Tiempo: 0.36 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:19
+ Tiempo: 0.46 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:19
+ Tiempo: 0.40 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:20
+ Tiempo: 0.36 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:20
+ Tiempo: 0.32 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:20
+ Tiempo: 0.19 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:20
+ Tiempo: 0.31 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:20
+ Tiempo: 0.21 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:20
+ Tiempo: 0.48 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:20
+ Tiempo: 0.50 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:21
+ Tiempo: 0.47 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:21
+ Tiempo: 0.49 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:23
+ Tiempo: 3.10 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:24
+ Tiempo: 3.20 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:26
+ Tiempo: 2.44 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:26
+ Tiempo: 4.86 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:26
+ Tiempo: 2.57 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:26
+ Tiempo: 2.45 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:26
+ Tiempo: 2.36 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:26
+ Tiempo: 2.58 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:26
+ Tiempo: 2.58 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:27
+ Tiempo: 5.56 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:27
+ Tiempo: 2.54 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:27
+ Tiempo: 2.62 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:27
+ Tiempo: 2.62 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:27
+ Tiempo: 2.69 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:27
+ Tiempo: 2.46 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:27
+ Tiempo: 2.56 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:27
+ Tiempo: 2.66 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:27
+ Tiempo: 2.67 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:27
+ Tiempo: 2.37 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:28
+ Tiempo: 2.70 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:28
+ Tiempo: 2.69 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:28
+ Tiempo: 2.69 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:28
+ Tiempo: 2.49 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:28
+ Tiempo: 2.50 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:28
+ Tiempo: 2.66 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:28
+ Tiempo: 2.54 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:28
+ Tiempo: 2.70 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:28
+ Tiempo: 2.62 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:28
+ Tiempo: 2.66 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:28
+ Tiempo: 2.64 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:28
+ Tiempo: 2.63 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:29
+ Tiempo: 2.61 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:29
+ Tiempo: 2.63 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:29
+ Tiempo: 2.77 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:29
+ Tiempo: 2.50 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:29
+ Tiempo: 2.58 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:29
+ Tiempo: 2.55 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:29
+ Tiempo: 2.74 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:29
+ Tiempo: 2.62 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:29
+ Tiempo: 2.48 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:29
+ Tiempo: 2.62 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:29
+ Tiempo: 2.61 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:29
+ Tiempo: 2.47 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:30
+ Tiempo: 2.55 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:30
+ Tiempo: 2.75 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:30
+ Tiempo: 2.59 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:30
+ Tiempo: 2.68 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:30
+ Tiempo: 2.57 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:30
+ Tiempo: 2.47 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:30
+ Tiempo: 2.36 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:30
+ Tiempo: 2.61 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:30
+ Tiempo: 2.60 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:30
+ Tiempo: 2.58 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:31
+ Tiempo: 2.52 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:31
+ Tiempo: 2.58 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:33
+ Tiempo: 2.47 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:31:33
+ Tiempo: 2.55 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 321.80 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 321.82 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 321.81 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 321.77 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 310.46 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 311.02 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 310.36 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 310.38 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 310.38 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 311.41 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 310.38 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 310.96 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 312.13 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 310.94 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 310.33 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 312.12 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 312.11 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 310.32 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 310.96 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 310.96 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 311.36 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 310.90 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 309.90 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 309.91 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 308.96 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 308.84 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 308.87 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 308.86 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 308.15 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 308.07 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 307.97 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 309.60 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 307.60 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 305.00 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 296.56 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 307.47 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 308.50 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 309.51 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 311.83 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 311.80 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 309.59 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 308.49 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 308.47 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 311.72 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 308.43 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 308.47 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 307.41 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 311.54 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 310.43 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 310.25 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 308.23 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 310.46 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 309.26 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:45
+ Tiempo: 308.57 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:36:51
+ Tiempo: 0.02 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:40:11
+ Tiempo: 0.01 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:40:18
+ Tiempo: 0.01 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 09:40:20
+ Tiempo: 0.00 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 23:10:45
+ Tiempo: 0.02 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 23:10:47
+ Tiempo: 0.03 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 23:11:38
+ Tiempo: 0.02 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 23:11:54
+ Tiempo: 0.01 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 23:11:57
+ Tiempo: 0.01 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 23:12:34
+ Tiempo: 0.01 seconds
+Datos de ejecucion
+ Fecha y hora: 04-03-2024 23:12:38
+ Tiempo: 0.01 seconds
